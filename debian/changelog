@@ -1,0 +1,26 @@
+ros-kinetic-thormang3-action-script-player (0.2.0-0jessie) jessie; urgency=high
+
+  * added thormang3_offset_tuner_client package
+
+ -- Pyo <pyo@robotis.com>  Thu, 18 Aug 2016 15:00:00 -0000
+
+ros-kinetic-thormang3-action-script-player (0.1.0-0jessie) jessie; urgency=high
+
+  * first public release for Kinetic
+  * modified arg of ros init
+  * added a fuction - action play for only specified joints
+    modified action_script_player.cpp
+    modified action_script.yaml
+    modified message_callback.cpp for coding style
+  * modified thormang3_foot_step_generator for realtime control
+    modified src in robotis_foot_step_generator.cpp and robotis_foot_step_generator.h
+    modified msg file
+    applied coding style
+  * enable stop button : thormang3_demo, walking
+  * ROS C++ coding style is applied.
+  * Change name of thormang3_motion_script_player to thormang3_action_script_player.
+  * Contributors: Jay Song, Kayman, Pyo
+
+ -- Pyo <pyo@robotis.com>  Wed, 17 Aug 2016 15:00:00 -0000
+
+
