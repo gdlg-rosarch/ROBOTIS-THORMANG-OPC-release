@@ -1,0 +1,12 @@
+Source: ros-kinetic-thormang3-opc
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/thormang3_opc
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-thormang3-opc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-thormang3-action-script-player, ros-kinetic-thormang3-foot-step-generator, ros-kinetic-thormang3-offset-tuner-client
+Description: ROS packages for the thormang3_opc (meta package)
